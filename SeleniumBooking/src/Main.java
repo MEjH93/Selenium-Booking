@@ -17,8 +17,6 @@ public class Main {
         chrome.svgClicks();
         if(chrome.getDriver().findElement(By.xpath("//*[@id=\"frm\"]/div[1]/div[2]/div[2]/div/div/div[3]/div[2]/table/tbody/tr[4]/td[2]")).isEnabled()) {
         	chrome.getDriver().findElement(By.xpath("//*[@id=\"frm\"]/div[1]/div[2]/div[2]/div/div/div[3]/div[2]/table/tbody/tr[4]/td[2]")).click();
-        }else {
-        	//nesto
         }
         chrome.getDriver().findElement(By.xpath("//*[@id=\"frm\"]/div[1]/div[2]/div[2]/div/div/div[3]/div[2]/table/tbody/tr[5]/td[1]")).click();
         chrome.getDriver().findElement(By.xpath("//*[@id=\"xp__guests__toggle\"]/span[2]")).click();
